@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise: 12g</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: Arial;
+        margin: 10px;
+        width: 300px;
+        padding: 10px 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      .profile {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 25px;
+      }
+      .profile-desc {
+        margin-left: 10px;
+        margin-right: 50px;
+        flex: 1;
+      }
+      .name {
+        font-weight: bold;
+        margin: 0;
+        font-size: 12px;
+      }
+      .type,
+      .about {
+        color: rgb(126, 126, 126);
+        margin: 0;
+        font-size: 12px;
+      }
+      .follow {
+        background-color: rgb(25, 90, 255);
+        border: none;
+        color: white;
+        font-size: 10px;
+        padding: 5px 10px;
+        border-radius: 3px;
+        align-items: end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="profile" src="lesson-12-images/cat.jpg" alt="cat" />
+      <div class="profile-desc">
+        <p class="name">Oliver</p>
+        <p class="type">the cat</p>
+        <p class="about">Popular</p>
+      </div>
+      <button class="follow">Follow</button>
+    </div>
+
+    <div class="container">
+      <img class="profile" src="lesson-12-images/cat2.jpg" alt="cat2" />
+      <div class="profile-desc">
+        <p class="name">Mimi</p>
+        <p class="type">Sleepy Cat</p>
+        <p class="about">Popular</p>
+      </div>
+      <button class="follow">Follow</button>
+    </div>
+
+    <div class="container">
+      <img class="profile" src="lesson-12-images/dog.jpg" alt="dog" />
+      <div class="profile-desc">
+        <p class="name">Rex</p>
+        <p class="type">Happy Bulldog</p>
+        <p class="about">Popular</p>
+      </div>
+      <button class="follow">Follow</button>
+    </div>
+  </body>
+</html>

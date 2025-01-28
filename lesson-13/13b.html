@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise: 13b</title>
+    <style>
+      .p-container {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+      }
+      .div1 {
+        width: 100px;
+        background-color: lightpink;
+      }
+      .div2 {
+        width: 200px;
+        background-color: lightblue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .cc1-2-div2,
+      .cc2-1-div2 {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="p-container">
+      <div class="div1"></div>
+      <div class="div2">
+        <div class="c1-div2">
+          <div class="cc1-1-div2">row1</div>
+          <div class="cc1-2-div2">row2</div>
+        </div>
+        <div class="c2-div2">
+          <div class="cc2-1-div2">row2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

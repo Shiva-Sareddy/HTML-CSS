@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise: 14f</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        font-family: sans-serif;
+      }
+      .c1-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(33, 33, 33);
+        width: 60px;
+        padding-top: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+      }
+      .profile1,
+      .profile2,
+      .profile3 {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+        margin: 10px 12px;
+      }
+      .c2-container {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(55, 55, 55);
+        color: white;
+        width: 200px;
+        position: fixed;
+        top: 0;
+        left: 60px;
+        bottom: 0;
+      }
+      .title {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .info-head {
+        margin-left: 15px;
+        font-size: 15px;
+      }
+      .add {
+        margin-right: 15px;
+        font-size: 25px;
+        color: rgb(164, 164, 164);
+      }
+      .hashtags {
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 14px;
+        color: rgb(164, 164, 164);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="c1-container">
+        <img
+          class="profile1"
+          src="lesson-14-images/cat.jpg"
+          alt="profile-cat" />
+        <img
+          class="profile2"
+          src="lesson-14-images/cat2.jpg"
+          alt="profile-cat2" />
+        <img
+          class="profile3"
+          src="lesson-14-images/dog.jpg"
+          alt="profile-dog" />
+      </div>
+      <div class="c2-container">
+        <div class="title">
+          <div class="info-head">INFO</div>
+          <div class="add">+</div>
+        </div>
+        <div class="hashtags"># new-videos</div>
+        <div class="hashtags"># updates</div>
+        <div class="hashtags"># faq</div>
+      </div>
+    </div>
+  </body>
+</html>

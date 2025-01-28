@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise: 15f</title>
+    <style>
+      .container {
+        position: relative;
+        width: 300px;
+      }
+      .shirt-picture {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+      }
+      .discount {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        font-size: 13px;
+        background-color: black;
+        width: 65px;
+        padding: 4px 0 4px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      }
+      .add-to-cart-btn {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 70px;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .add-btn {
+        background-color: white;
+        border-color: rgb(99, 99, 99);
+        border-width: 1px;
+        padding: 5px 10px;
+        font-size: 12px;
+        border-style: solid;
+        border-radius: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="shirt-picture"
+        src="lesson-15-images/shirt.jpg"
+        alt="shirt-image" />
+      <div class="discount">20% OFF</div>
+      <div class="add-to-cart-btn">
+        <button class="add-btn">Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>
